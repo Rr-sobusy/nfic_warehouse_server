@@ -11,6 +11,9 @@ app.use(cors());
 app.get('/sample', (req,res)=>{
     res.send("sample")
 })
+app.get('/samplerex', (req,res)=>{
+    res.send("sample")
+})
 
 //Start the server
 const PORT = process.env.PORT || 3005;
